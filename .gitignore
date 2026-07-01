@@ -1,0 +1,25 @@
+# Rust
+/target/
+Cargo.lock
+
+# Python (Core service)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Env/secrets
+.env
+.env.local
+*.key
+
+# Build output
+/dist/
+/build/
